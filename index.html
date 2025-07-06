@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assests/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+    <body>
+        <div class="globalnav">
+            <div class="global-nav-left">
+                <img src="./assests/logo.png" alt="spotify logo">
+                <div class="home">
+                    <div class="home-option" style="background-color: transparent;">
+                        <i class="fa-solid fa-house" style="background-color: transparent;"></i>
+                    </div>
+                </div>
+                <div class="searchbar">
+                    <div class="searchbar-opt">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="What do you want to play?">
+                        <i class="fa-solid fa-window-restore"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="global-nav-right">
+                <button class="explore">Explore Premium</button>
+                <button class="explore" id="install"><i class="fa-solid fa-circle-down"></i>Install App</button>
+                <i class="fa-solid fa-bell"></i>
+                <i class="fa-solid fa-users"></i>
+                <i id="user" class="fa-solid fa-circle-user"></i>
+            </div>
+        </div>
+        <div class="main">
+            <div class="sidebar">
+                <div class="library">
+                    <div class="lib-opt">
+                        <img src="./assests/library_icon.png" alt="library">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="plus">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="card">
+                        <h4>Create your playlist</h4>
+                        <p>It's easy, we'll help you</p>
+                        <button class="explore">Create playlist</button>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="card">
+                        <h4>Let's find some podcasts to follow</h4>
+                        <p>We'll keep you updated on new episodes</p>
+                        <button class="explore" id="brow">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+            <div class="maincontent">
+                <div class="content">
+                    <div class="list">
+                        <button class="explore">All</button>
+                        <button class="explore">Music</button>
+                        <button class="explore">Podcasts</button>
+                    </div>
+                </div>
+                <div class="topbar">
+                    <div class="top-link">
+                        <a href="#">To get you started</a>
+                    </div>
+                    <div class="top-show">
+                        <span>show all</span>
+                    </div>
+                </div>
+                <div class="main-cards">
+                    <div class="main-card">
+                        <img class="main-img" src="./assests/card1img.jpeg" alt="img1">
+                        <p>Listen to top 50 global songs here...
+                        </p>
+                    </div>
+                </div>
+                <div class="topbar">
+                    <div class="top-link">
+                        <a href="#">To get you started</a>
+                    </div>
+                    <div class="top-show">
+                        <span>show all</span>
+                    </div>
+                </div>
+                <div class="main-cards">
+                    <div class="main-card">
+                        <img class="main-img" src="./assests/card2img.jpeg" alt="img2">
+                        <p>Mahiye jinna sohna
+                        </p>
+                    </div>
+                    <div class="main-card">
+                        <img class="main-img" src="./assests/card3img.jpeg" alt="img3">
+                        <p>Mere pass tum ho lofi mix
+                        </p>
+                    </div>
+                    <div class="main-card">
+                        <img class="main-img" src="./assests/card4img.jpeg" alt="img4">
+                        <p>Naa ready 
+                        </p>
+                    </div>
+                    <div class="main-card">
+                        <img class="main-img" src="./assests/card5img.jpeg" alt="img5">
+                        <p>Listen to top global songs here...
+                        </p>
+                    </div>
+                    <div class="main-card">
+                        <img class="main-img" src="./assests/card6img.jpeg" alt="img6">
+                        <p>Listen to top India songs here...
+                        </p>
+                    </div>
+                    <div class="main-card">
+                        <img class="main-img" src="./assests/card1img.jpeg" alt="img1">
+                        <p>listen to top 50 global songs here...
+                        </p>
+                    </div>
+                </div>
+                <div class="topbar">
+                    <div class="top-link">
+                        <a href="#">To get you started</a>
+                    </div>
+                    <div class="top-show">
+                        <span>show all</span>
+                    </div>
+                </div>
+                <div class="main-cards">
+                    <div class="main-card">
+                        <img class="main-img" src="./assests/card1img.jpeg" alt="img1">
+                        <p>listen to top 50 global songs here...
+                        </p>
+                    </div>
+                </div>
+                <br><br><br><br><br><br><br><br>
+            </div>
+            <div class="playback">
+                <div class="div1">
+                    <img src="./hw assessts/album_picture.jpeg" alt="album">
+                    <div class="song">
+                        <p>Nee Singam Dhan</p>
+                        <p>A.R. Rahman</p>
+                    </div>
+                    <i class="fa-solid fa-circle-plus"></i>
+                </div>
+                <div class="div2">
+                    <div class="player-ctrls">
+                        <img src="./assests/player_icon1.png" alt="icon" class="play-icon">
+                        <img src="./assests/player_icon2.png" alt="icon" class="play-icon">
+                        <img src="./assests/player_icon3.png" alt="icon" class="play-icon" id="play">
+                        <img src="./assests/player_icon4.png" alt="icon" class="play-icon">
+                        <img src="./assests/player_icon5.png" alt="icon" class="play-icon">
+                    </div>
+                    <div class="playblack-bar">
+                        <span class="curr-time">00:00</span>
+                        <input type="range" min="0" max="100" class="progress-bar" step="1">
+                        <span class="tot-time">3:43</span>
+                    </div>
+                </div>
+                <div class="div3">
+                    <img src="./hw assessts/controls_icon1.png" alt="ctrl" class="div-img">
+                    <img src="./hw assessts/controld_icon2.png" alt="ctrl" class="div-img">
+                    <img src="./hw assessts/controls_icon3.png" alt="ctrl" style="height: 1.3rem;">
+                    <img src="./hw assessts/controls_icon5.png" alt="ctrl" class="div-img">
+                    <input type="range" class="vol">
+                    <img src="./hw assessts/controls_icon4.png" alt="ctrl" style="height: 1.3rem;">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
